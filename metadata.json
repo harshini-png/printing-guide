@@ -1,0 +1,6 @@
+{
+  "name": "PrintMate — Digital Printing Guide Notebook",
+  "description": "A private, clean digital instruction notebook for printing shops. Easily create, manage, and follow step-by-step guides for everyday printing tasks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

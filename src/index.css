@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-cream: #FFF8EF;
+    --bg-card: #FFFFFF;
+    --bg-cream-pale: #FFFDF8;
+    --accent-lavender: #EDE5FF;
+    --accent-purple-soft: #DCCEFF;
+    --accent-btn: #D8C5FF;
+    --text-main: #493D61;
+    --text-muted: #81758F;
+    --border-lavender: #E9DFF5;
+    --completed-green: #E0F2E5;
+    --completed-green-text: #2C6B45;
+  }
+
+  body {
+    background-color: #FFF8EF;
+    color: #493D61;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 100vh;
+  }
+}
+
+/* Notebook paper subtle texture / rule lines for delight */
+.notebook-ruled {
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 27px,
+    rgba(233, 223, 245, 0.5) 28px
+  );
+  line-height: 28px;
+}
+
+/* Custom soft scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCCEFF;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C4B0F7;
+}
